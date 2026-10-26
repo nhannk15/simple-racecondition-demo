@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: race
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/race
+    username: root
+    password: 21012006
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+  
